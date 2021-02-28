@@ -60,7 +60,7 @@ main {
 	text-align: center;
 }
 
-img.logo {
+.main__logo {
 	margin-top: 7rem;
 	padding: 1rem;
 	margin-bottom: 0.5rem;
@@ -173,7 +173,7 @@ footer a {
 		margin-right: 10px;
 	}
 
-	img.logo {
+	.main__logo {
 		margin-top: 5rem;
 	}
 
@@ -201,7 +201,7 @@ footer a {
 @media all and (max-width: 340px) {
 
 
-	img.logo {
+	.main__logo {
 		width: 70%;
 	}
 
