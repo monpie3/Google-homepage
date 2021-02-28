@@ -85,7 +85,6 @@ input[type="text"]:focus {
 	box-shadow: 1px 1px 4px rgb(141, 132, 132);
 }
 
-
 .input-searchphrase {
 	position: relative;
 	width: 30%;
@@ -94,12 +93,11 @@ input[type="text"]:focus {
 
 .fa-microphone {
 	color: rgb(87, 87, 221);
-    cursor: pointer;
+	cursor: pointer;
 	position: absolute;
 	right: 25px;
 	top: 11px;
 }
-
 
 input[type="submit"] {
 	background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
@@ -153,7 +151,6 @@ a:hover {
 	text-decoration: none;
 }
 
-
 nav a {
 	color: #000;
 	opacity: 0.75;
@@ -170,12 +167,12 @@ footer a {
 }
 
 @media all and (max-width: 540px) {
-	.input-searchphrase {
-		width: 60%;
-	}
-
 	a {
 		padding: 0 5px;
+	}
+
+	.input-searchphrase {
+		width: 60%;
 	}
 
 	.fa-microphone {
@@ -184,6 +181,22 @@ footer a {
 }
 
 @media all and (max-width: 475px) {
+	.fa-th {
+		margin-right: 10px;
+	}
+
+	img.logo {
+		margin-top: 20%;
+	}
+
+	input[type="text"] {
+		margin-bottom: 7%;
+	}
+
+	.fa-microphone {
+		right: 10px;
+	}
+
 	/* top */
 	.footer-wrapper {
 		display: flex;
@@ -203,22 +216,6 @@ footer a {
 		order: 1;
 		width: 100%;
 	}
-
-	.fa-th {
-		margin-right: 10px;
-	}
-
-	.fa-microphone {
-		right: 10px;
-	}
-
-	img.logo {
-		margin-top: 20%;
-	}
-
-    input[type="text"] {
-		margin-bottom: 7%;
-	}
 }
 
 @media all and (max-width: 313px) {
@@ -226,7 +223,7 @@ footer a {
 		width: 60%;
 	}
 
-    input[type="text"] {
+	input[type="text"] {
 		margin-bottom: 10%;
 	}
 
