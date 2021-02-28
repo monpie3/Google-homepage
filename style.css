@@ -201,7 +201,7 @@ footer a {
 @media all and (max-width: 340px) {
 
 
-	.main__logo {
+	.main__logo img {
 		width: 70%;
 	}
 
