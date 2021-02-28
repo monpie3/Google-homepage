@@ -95,7 +95,7 @@ input[type="text"]:focus {
 	color: rgb(87, 87, 221);
 	cursor: pointer;
 	position: absolute;
-	right: 25px;
+	right: 4%;
 	top: 11px;
 }
 
@@ -175,9 +175,6 @@ footer a {
 		width: 60%;
 	}
 
-	.fa-microphone {
-		right: 15px;
-	}
 }
 
 @media all and (max-width: 475px) {
@@ -191,10 +188,6 @@ footer a {
 
 	input[type="text"] {
 		margin-bottom: 7%;
-	}
-
-	.fa-microphone {
-		right: 10px;
 	}
 
 	/* top */
@@ -233,10 +226,6 @@ footer a {
 
 	nav {
 		font-size: 14px;
-	}
-
-	.fa-microphone {
-		right: 5px;
 	}
 
 	footer {
