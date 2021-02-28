@@ -26,23 +26,23 @@ select {
 nav {
 	width: 100%;
 	font-size: 15px;
+	padding-top: 1.5%;
 }
 
 nav div {
 	display: inline-block;
 }
 
-.nav-right {
+.nav__right {
 	float: right;
 	padding-right: 1%;
 }
 
-.nav-left {
-	padding: 5px 0;
+.nav__left {
 	padding-left: 1%;
 }
 
-nav button {
+.nav__signIn {
 	background-color: rgb(59, 118, 230);
 	border: none;
 	padding: 5px 12px;
@@ -53,7 +53,7 @@ nav button {
 
 .fa-th {
 	cursor: pointer;
-	margin-right: 30px;
+	margin-right: 15px;
 }
 
 main {
@@ -120,12 +120,12 @@ footer {
 	font-size: 16px;
 }
 
-.footer-right {
+.footer__right {
 	float: right;
 	padding-right: 1.5%;
 	display: inline-block;
 }
-.footer-left {
+.footer__left {
 	padding-left: 1.5%;
 	display: inline-block;
 }
@@ -138,6 +138,11 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+
+.nav__signIn:hover {
+	text-decoration: none;
+}
+
 
 nav a {
 	color: #000;
@@ -171,14 +176,14 @@ footer a {
 		flex-wrap: wrap;
 	}
 
-	.footer-left {
+	.footer__left {
 		display: flex;
 		justify-content: space-around;
 		order: 2;
 		width: 100%;
 	}
 	/* bottom */
-	.footer-right {
+	.footer__right {
 		display: flex;
 		justify-content: center;
 		order: 1;
@@ -186,8 +191,7 @@ footer a {
 	}
 
 	.fa-th {
-		cursor: pointer;
-		margin-right: 14px;
+		margin-right: 10px;
 	}
 
 	img.logo {
@@ -209,7 +213,7 @@ footer a {
 	}
 
 	nav a {
-		padding: 0 3px;
+		padding: 0 3.5px;
 	}
 
 	nav {
